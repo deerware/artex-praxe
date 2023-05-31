@@ -1,0 +1,41 @@
+{
+  "id": "f6ac2a77-df54-40bc-a97f-fb892334ff93",
+  "name": "My First Extension",
+  "publisher": "ARTEX Informační systémy spol. s r.o.",
+  "brief": "My First Extension",
+  "description": "My First Extension",
+  "version": "1.0.0.0",
+  "privacyStatement": "https://www.artex-is.cz/dynamics/privacy",
+  "EULA": "https://www.artex-is.cz/dynamics/eula",
+  "help": "https://www.artex-is.cz/dynamics/help",
+  "contextSensitiveHelpUrl": "https://docs.artex-is.cz/docs/a/xxyyy",
+  "url": "http://www.artex-is.cz",
+  "logo": "./res/ArtexLogo.png",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "20.0.0.0",
+  "application": "20.0.0.0",
+  "idRanges": [
+    {
+      "from": 79000,
+      "to": 89000
+    }
+  ],
+  "target": "Cloud",
+  "features": [
+    "TranslationFile",
+    "NoImplicitWith"
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": false,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "suppressWarnings": [
+    "AS0081",
+    "AS0084",
+    "PTE0012"
+  ],
+  "runtime": "9.0",
+  "applicationInsightsConnectionString": "InstrumentationKey=fa9135ea-43b6-4ada-b079-0650784c8183;IngestionEndpoint=https://westeurope-5.in.applicationinsights.azure.com/;LiveEndpoint=https://westeurope.livediagnostics.monitor.azure.com/"
+}
