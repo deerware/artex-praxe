@@ -17,7 +17,7 @@
   "application": "20.0.0.0",
   "idRanges": [
     {
-      "from": 79000,
+      "from": 50000,
       "to": 89000
     }
   ],
@@ -34,7 +34,8 @@
   "suppressWarnings": [
     "AS0081",
     "AS0084",
-    "PTE0012"
+    "PTE0012",
+    "AA0218"
   ],
   "runtime": "9.0",
   "applicationInsightsConnectionString": "InstrumentationKey=fa9135ea-43b6-4ada-b079-0650784c8183;IngestionEndpoint=https://westeurope-5.in.applicationinsights.azure.com/;LiveEndpoint=https://westeurope.livediagnostics.monitor.azure.com/"
