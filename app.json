@@ -34,8 +34,10 @@
   "suppressWarnings": [
     "AS0081",
     "AS0084",
+    "PTE0004",
     "PTE0012",
-    "AA0218"
+    "AA0218",
+    "AS0103"
   ],
   "runtime": "9.0",
   "applicationInsightsConnectionString": "InstrumentationKey=fa9135ea-43b6-4ada-b079-0650784c8183;IngestionEndpoint=https://westeurope-5.in.applicationinsights.azure.com/;LiveEndpoint=https://westeurope.livediagnostics.monitor.azure.com/"
